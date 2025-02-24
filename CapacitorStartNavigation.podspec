@@ -1,6 +1,6 @@
 
   Pod::Spec.new do |s|
-    s.name = 'CapacitorStartNavigation'
+    s.name = 'ProteansoftwareCapacitorStartNavigation'
     s.version = '0.0.1'
     s.summary = 'Starts navigation in the native maps application'
     s.license = 'MIT'
