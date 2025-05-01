@@ -4,10 +4,7 @@ import type { StartNavigationOptions, StartNavigationPlugin } from "./definition
 
 export class StartNavigationPluginWeb extends WebPlugin implements StartNavigationPlugin {
   constructor() {
-    super({
-      name: "StartNavigationPlugin",
-      platforms: ["web"],
-    });
+    super()
   }
 
   async launchMapsApp(options: StartNavigationOptions): Promise<void> {
